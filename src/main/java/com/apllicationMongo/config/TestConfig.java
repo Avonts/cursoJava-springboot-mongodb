@@ -10,7 +10,7 @@ import com.apllicationMongo.domain.User;
 import com.apllicationMongo.repository.UserRepository;
 
 @Configuration
-public class Instantiation implements CommandLineRunner {
+public class TestConfig implements CommandLineRunner {
 
 	@Autowired
 	private UserRepository userRepository;
